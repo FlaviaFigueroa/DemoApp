@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ctrContainer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF100"
+    android:padding="24dp"
+    tools:context=".ui.DemoXMLActivity">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnNone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="As system"
+        app:layout_constraintBottom_toBottomOf="@+id/btnLight"
+        app:layout_constraintEnd_toStartOf="@+id/btnDark"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/btnLight"
+        app:layout_constraintTop_toTopOf="@+id/btnLight" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnLight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Light"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btnNone"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnDark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dark"
+        app:layout_constraintBottom_toBottomOf="@+id/btnNone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/btnNone"
+        app:layout_constraintTop_toTopOf="@+id/btnNone" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

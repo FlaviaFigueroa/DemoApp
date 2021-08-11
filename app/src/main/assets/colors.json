@@ -1,0 +1,38 @@
+{
+  "ThemeToolVersion": "5.0.0.9999",
+
+  "Variables": {
+    "primaryBrandColor": "#008991",
+    "primaryBrandLightColor" : "#00ADB7",
+    "primaryBrandDarkColor" : "#007178",
+    "secondaryBrandColor": "#70B600",
+    "dataBackgroundColor": "#FFFFFF",
+    "backgroundColor": "#F8F8F8",
+    "lightBackgroundColor": "#E1E1E1",
+    "primaryTextColor": "#000000",
+    "secondaryTextColor": "#969696",
+    "subTextColor": "#969696",
+    "lightTextColor": "#FFFFFF",
+    "darkGrayColor": "#666666",
+    "dividerColor": "#DEDEDE",
+    "formBackgroundColor": "#FFFFFF",
+    "carouselBackgroundColor": "#008991",
+    "carouselSegmentBackgroundColor": "#0078B3",
+    "taskButtonColor": "#70B600",
+    "taskCloseButtonColor": "#F00E0E",
+    "calendarBarColor" : "#008991",
+    "calendarSelectedColor" : "#008991",
+    "buttonFillColor" : "#008991",
+    "footerTextColor" : "#969696",
+    "navTextColorOnBrand": "#FFFFFF",
+    "navActionTextColor": "#FFFFFF",
+    "modalNavActionTextColor": "#FFFFFF",
+    "linkColorOnList": "#008991",
+    "linkColorOnBackground": "#008991",
+    "descriptionTextColorOnList" : "#008991",
+    "primaryDarkBrandColor" : "#0078B3",
+    "formTextColor" : "#000000",
+    "checkBoxOnColor" : "#70B600",
+    "checkBoxOffColor" : "#969696"
+  }
+}
