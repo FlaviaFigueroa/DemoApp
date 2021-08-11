@@ -1,6 +1,12 @@
 # DemoApp
 
-By: Flavia Figueroa
-To: Globant Perú
+## Unyfing tasks
 
-Switch themes between Dark Mode and Light Mode with Jetpack Compose and XML
+###### V1 - Switch themes between Dark Mode and Light Mode with Jetpack Compose and XML  
+*By: Flavia Figueroa*
+
+
+
+**Globant Perú**
+
+
