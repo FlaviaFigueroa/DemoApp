@@ -4,13 +4,13 @@ plugins {
 }
 
 android {
-    compileSdkVersion 30
+    compileSdkVersion 31
     buildToolsVersion "30.0.3"
 
     defaultConfig {
         applicationId "com.globant.demoapp"
         minSdkVersion 23
-        targetSdkVersion 30
+        targetSdkVersion 31
         versionCode 1
         versionName "1.0"
 
@@ -49,9 +49,9 @@ dependencies {
     implementation 'androidx.constraintlayout:constraintlayout:2.1.0'
 
     //Compose
-    implementation 'androidx.compose.ui:ui:1.0.0'
+    implementation 'androidx.compose.ui:ui:1.0.1'
     // Tooling support (Previews, etc.)
-    implementation 'androidx.compose.ui:ui-tooling:1.0.0'
+    implementation 'androidx.compose.ui:ui-tooling:1.0.1'
     // Foundation (Border, Background, Box, Image, Scroll, shapes, animations, etc.)
     implementation 'androidx.compose.foundation:foundation:1.0.1'
     // Material Design
